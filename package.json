@@ -1,0 +1,28 @@
+{
+  "name": "grafana-datasource-react-ts-webpack-template",
+  "version": "1.0.0",
+  "description": "Some description",
+  "main": "dist/module.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "dev": "webpack --config build/webpack.dev.conf.js"
+  },
+  "keywords": [],
+  "author": "CorpGlory Inc.",
+  "repository": "https://github.com/CorpGlory/grafana-datasource-react-ts-webpack-template",
+  "devDependencies": {
+    "@grafana/ui": "latest",
+    "@grafana/data": "latest",
+    "@types/grafana": "github:CorpGlory/types-grafana",
+    "@types/lodash": "^4.14.74",
+    "@types/react": "^16.0.25",
+    "@types/react-dom": "^16.9.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "replace-in-file-webpack-plugin": "^1.0.6",
+    "ts-loader": "^4.4.0",
+    "typescript": "^2.9.1",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {}
+}

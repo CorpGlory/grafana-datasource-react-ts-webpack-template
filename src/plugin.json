@@ -1,0 +1,28 @@
+{
+  "type": "datasource",
+  "name": "React Datasource Template Name",
+  "id": "grafana-datasource-react-ts-webpack-template",
+
+  "metrics": true,
+  "logs": false,
+  "alerting": false,
+  "annotations": false,
+
+  "info": {
+    "description": "React Datasource Template Description",
+    "author": {
+      "name": "Author Name",
+      "url": "example.com"
+    },
+    "keywords": [ ],
+    "logos": { },
+    "links": [ ],
+    "screenshots": [ ],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.3+",
+    "plugins": [ ]
+  }
+}
